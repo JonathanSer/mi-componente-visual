@@ -143,7 +143,7 @@ body {
 }
 
 ```
-
+### Capturas de pantallas
 ![image](https://github.com/user-attachments/assets/9d83dc3a-7da6-4abf-a0da-34fae26c9363)
 
 ![image](https://github.com/user-attachments/assets/2292c730-008d-4999-bd72-e953d09f88dc)
@@ -154,4 +154,4 @@ body {
 
 ![image](https://github.com/user-attachments/assets/4e79b0f6-5fe7-49d6-900f-a62d118698f7)
 
-
+https://drive.google.com/file/d/1klGX9sDWjh_PjNtImo27X8VxysDNTKsw/view?usp=sharing
