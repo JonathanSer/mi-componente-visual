@@ -27,11 +27,11 @@ iconCerrar.addEventListener('click', () => {
 })
 
 modo1.addEventListener('click', () => {
-    document.body.style.background = "url('img/paisaje.jpg') no-repeat";
+    document.body.style.background = "url('../img/paisaje.jpg') no-repeat";
     document.body.style.backgroundSize = "cover";
 })
 
 modo2.addEventListener('click', () => {
-    document.body.style.background = "url('img/imagen.jpg') no-repeat";
+    document.body.style.background = "url('../img/imagen.jpg') no-repeat";
     document.body.style.backgroundSize = "cover";
 })
