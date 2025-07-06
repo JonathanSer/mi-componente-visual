@@ -11,7 +11,7 @@ Su implementación modular permite cambiar fácilmente entre modos y fondos, mej
 1. Clona o descarga este repositorio.
 
 2. Asegúrate de tener la siguiente estructura de archivos:
-html'''
+```html
 /login-multilenguaje
 │
 ├── index.html
@@ -22,4 +22,4 @@ html'''
 ├── img/
 │   ├── imagen.jpg
 │   └── paisaje.jpg
-'''
+```
