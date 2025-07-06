@@ -7,7 +7,7 @@ const iconCerrar = document.querySelector('.icon-cerrar');
 const modo1 = document.querySelector('.modo-uno');
 const modo2 = document.querySelector('.modo-dos');
 
-document.body.style.background = "url('https://jonathanser.github.io/mi-componente-visual/img/imagen.jpg') no-repeat";
+document.body.style.background = "url('../img/imagen.jpg') no-repeat";
 document.body.style.backgroundSize = "cover";
 
 registrarLink.addEventListener('click', () => {
