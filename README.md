@@ -12,7 +12,7 @@ Su implementación modular permite cambiar fácilmente entre modos y fondos, mej
 
 2. Asegúrate de tener la siguiente estructura de archivos:
 ```html
-/login-multilenguaje
+/login
 │
 ├── index.html
 ├── css/
@@ -25,3 +25,9 @@ Su implementación modular permite cambiar fácilmente entre modos y fondos, mej
 ```
 
 3. Incluye el archivo en tu proyecto HTML: 
+```html
+<link rel="stylesheet" href="css/estilo.css">
+<script src="js/script.js" defer></script>
+```
+
+### Uso
