@@ -52,6 +52,7 @@ Estructura básica en HTML
 ```
 
 Lógica en JavaScript
+Selección de elementos
 ```js
 const contenido = document.querySelector('.contenido');
 const loginLink = document.querySelector('.login-link');
@@ -59,28 +60,47 @@ const registrarLink = document.querySelector('.registrar-link');
 const btn = document.querySelector('.btnLogin');
 const iconCerrar = document.querySelector('.icon-cerrar');
 
-// Cambiar entre formularios
-registrarLink.addEventListener('click', () => contenido.classList.add('activo'));
-loginLink.addEventListener('click', () => contenido.classList.remove('activo'));
+const modo1 = document.querySelector('.modo-uno');
+const modo2 = document.querySelector('.modo-dos');
+```
 
-// Mostrar u ocultar el contenedor
-btn.addEventListener('click', () => contenido.classList.add('activo-btn'));
-iconCerrar.addEventListener('click', () => contenido.classList.remove('activo-btn'));
+Cambiar entre formularios
+```js
+registrarLink.addEventListener('click', () => {
+    contenido.classList.add('activo');
+});
 
-// Cambiar fondos (modos)
-document.querySelector('.modo-uno').addEventListener('click', () => {
+loginLink.addEventListener('click', () => {
+    contenido.classList.remove('activo');
+});
+```
+
+Mostrar u ocultar el contenedor principal
+```js
+btn.addEventListener('click', () => {
+    contenido.classList.add('activo-btn');
+});
+
+iconCerrar.addEventListener('click', () => {
+    contenido.classList.remove('activo-btn');
+});
+```
+
+Cambiar de fondo (modo visual)
+```js
+modo1.addEventListener('click', () => {
     document.body.style.background = "url('../img/paisaje.jpg') no-repeat";
     document.body.style.backgroundSize = "cover";
 });
 
-document.querySelector('.modo-dos').addEventListener('click', () => {
+modo2.addEventListener('click', () => {
     document.body.style.background = "url('../img/imagen.jpg') no-repeat";
     document.body.style.backgroundSize = "cover";
 });
-
 ```
 
 Estilos en CSS (css/estilo.css)
+Selección de elementos
 ```css
 body {
     display: flex;
