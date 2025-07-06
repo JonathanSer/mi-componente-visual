@@ -52,7 +52,7 @@ Estructura básica en HTML
 ```
 
 Lógica en JavaScript
-```html
+```js
 const contenido = document.querySelector('.contenido');
 const loginLink = document.querySelector('.login-link');
 const registrarLink = document.querySelector('.registrar-link');
@@ -80,6 +80,46 @@ document.querySelector('.modo-dos').addEventListener('click', () => {
 
 ```
 
-```html
+Estilos en CSS (css/estilo.css)
+```css
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btnLogin {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.contenido {
+    width: 400px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    backdrop-filter: blur(30px);
+    transform: scale(0);
+    transition: transform 0.5s ease;
+}
+
+.contenido.activo-btn {
+    transform: scale(1);
+}
+
+.contenido.activo .formulario.login {
+    transform: translateX(-400px);
+}
+
+.contenido.activo .formulario.registro {
+    transform: translateX(0);
+}
 
 ```
