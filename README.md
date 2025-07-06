@@ -1,6 +1,8 @@
 # mi-componente-visual
 a. Portada
+
 Nombre de la librería.
+
 micomponentevisual
 Breve descripción (¿qué problema resuelve?).
 ### Instalación
