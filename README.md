@@ -23,3 +23,5 @@ Su implementación modular permite cambiar fácilmente entre modos y fondos, mej
 │   ├── imagen.jpg
 │   └── paisaje.jpg
 ```
+
+3. Incluye el archivo en tu proyecto HTML: 
