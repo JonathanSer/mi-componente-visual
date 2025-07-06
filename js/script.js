@@ -7,19 +7,8 @@ const iconCerrar = document.querySelector('.icon-cerrar');
 const modo1 = document.querySelector('.modo-uno');
 const modo2 = document.querySelector('.modo-dos');
 
-document.body.style.background = "url('img/imagen.jpg') no-repeat";
+document.body.style.background = "url('../img/imagen.jpg') no-repeat";
 document.body.style.backgroundSize = "cover";
-
-modo1.addEventListener('click', () => {
-    document.body.style.background = "url('img/paisaje.jpg') no-repeat";
-    document.body.style.backgroundSize = "cover";
-});
-
-modo2.addEventListener('click', () => {
-    document.body.style.background = "url('img/imagen.jpg') no-repeat";
-    document.body.style.backgroundSize = "cover";
-});
-
 
 registrarLink.addEventListener('click', () => {
     contenido.classList.add('activo');
@@ -35,4 +24,14 @@ btn.addEventListener('click', () => {
 
 iconCerrar.addEventListener('click', () => {
     contenido.classList.remove('activo-btn');
+})
+
+modo1.addEventListener('click', () => {
+    document.body.style.background = "url('../img/paisaje.jpg') no-repeat";
+    document.body.style.backgroundSize = "cover";
+})
+
+modo2.addEventListener('click', () => {
+    document.body.style.background = "url('../img/imagen.jpg') no-repeat";
+    document.body.style.backgroundSize = "cover";
 })
