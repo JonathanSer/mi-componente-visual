@@ -1,22 +1,9 @@
-# mi-componente-visual
-a. Portada
+# Librería Login Multilenguaje
 
-Nombre de la librería.
+Interfaz de login y registro adaptable con cambio de fondo y diseño atractivo.
+Ideal para integrarse en proyectos HTML modernos, con un diseño minimalista y responsive.
 
-micomponentevisual
-Breve descripción (¿qué problema resuelve?).
-### Instalación
-Cómo incluirla en un proyecto HTML.
-### Uso
-Ejemplo de implementación en HTML/JS/css
-### Capturas de pantallas
-Imágenes del código en acción (ej: consola del navegador mostrando resultados).
-### Vídeo
-Incluir un video corto (máximo 1 minuto) que muestre:
-Cómo se usa el componente.
- El resultado de su funcionamiento.
-### Extras Opcionales
-GitHub Pages: Si quieren demostrar la implementación, pueden activar GitHub Pages para el index.html.
-Notas Importantes
-•    Claridad del README.
-•    Recomendación: Pueden usar  Markdown para formatear el README.
+## ¿Qué problema resuelve?
+Facilita la integración de un sistema visual de autenticación con soporte multiforma (login/registro) sin necesidad de frameworks adicionales.
+Su implementación modular permite cambiar fácilmente entre modos y fondos, mejorando la experiencia de usuario.
+
