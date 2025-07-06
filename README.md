@@ -1,4 +1,4 @@
-# Librería Login Multilenguaje
+# Librería Login
 
 Interfaz de login y registro adaptable con cambio de fondo y diseño atractivo.
 Ideal para integrarse en proyectos HTML modernos, con un diseño minimalista y responsive.
