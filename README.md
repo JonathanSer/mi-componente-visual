@@ -27,7 +27,26 @@ Su implementación modular permite cambiar fácilmente entre modos y fondos, mej
 3. Incluye el archivo en tu proyecto HTML: 
 ```html
 <link rel="stylesheet" href="css/estilo.css">
-<script src="js/script.js" defer></script>
+<script src="js/script.js"></script>
 ```
 
 ### Uso
+Estructura básica en HTML
+
+```html
+<!-- Botón de inicio de sesión -->
+<button class="btnLogin">Login</button>
+
+<!-- Contenedor con formularios de login y registro -->
+<div class="contenido">
+  <span class="icon-cerrar"><ion-icon name="close"></ion-icon></span>
+
+  <div class="formulario login">
+    <!-- Formulario de inicio de sesión -->
+  </div>
+
+  <div class="formulario registro">
+    <!-- Formulario de registro -->
+  </div>
+</div>
+```
